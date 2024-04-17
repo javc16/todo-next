@@ -39,7 +39,7 @@ export const Sidebar = async() => {
   return (
     <aside className="ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r bg-white transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]">
       <div>
-        <div className="-mx-6 px-20 py-6">
+        <div className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28">
           <Link href="#" title="home">
             <Image src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bbe2f157-e46c-4b1a-9cb8-d73499b69a58/dh8x9a3-7f3f47cf-a118-4502-be06-e47bc7baf5ab.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiZTJmMTU3LWU0NmMtNGIxYS05Y2I4LWQ3MzQ5OWI2OWE1OFwvZGg4eDlhMy03ZjNmNDdjZi1hMTE4LTQ1MDItYmUwNi1lNDdiYzdiYWY1YWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P-3sVlMeyD91mgRXeTbb17VBnMQoH5vYh7lwJmGYoaA" 
               className="w-32" 
